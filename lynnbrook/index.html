@@ -68,7 +68,16 @@
           </div>
         </div>
         <div class="wrapperButton">
-          <button class="b24-web-form-popup-btn-3">Contact us</button>
+          <script id="bx24_form_button" data-skip-moving="true">
+            (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+                (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                if(w[b]['forms']) return;
+                var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+            })(window,document,'https://testrom.bitrix24.ua/bitrix/js/crm/form_loader.js','b24form');
+
+            b24form({"id":"3","lang":"ua","sec":"mn76w2","type":"button","click":""});
+          </script><button class="b24-web-form-popup-btn-3">Contact us</button>
           <button class="active">Trusted clients</button>
         </div>
         <div class="bottomText"><ins>Family</ins> owned & operated</div>
